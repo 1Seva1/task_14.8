@@ -1,11 +1,11 @@
 <?php
 
-//возвращает массив всех пользователей и хэшей их паролей
+//возвращает массив всех пользователей и хэшей их паролей admin123 ulya123 andr234
 function getUsersList(){
     return [
-        'admin' => '$2y$10$0bhR8KeFhg0TxuES9jTY5.ufvctFTCeztSyRnXrwJxC763L2cWslq', // admin123
-        'ulya' => '$2y$10$zPuL1Fs8mJWRfS8ni/N/OehsEQdqPG3jekLw/79qa9mNqB6KAfXVO', //ulya123
-        'andrei' => '$2y$10$oCNfTkfxFPvLvZIWfDUNLOPdbemzX2ZIf3BOFj7pliCBvQNRTIAp2', //andr234
+        'admin' => '$2y$10$0bhR8KeFhg0TxuES9jTY5.ufvctFTCeztSyRnXrwJxC763L2cWslq', 
+        'ulya' => '$2y$10$zPuL1Fs8mJWRfS8ni/N/OehsEQdqPG3jekLw/79qa9mNqB6KAfXVO',
+        'andrei' => '$2y$10$oCNfTkfxFPvLvZIWfDUNLOPdbemzX2ZIf3BOFj7pliCBvQNRTIAp2',
     ];
 }
 
