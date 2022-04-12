@@ -3,66 +3,68 @@ require 'header.php';
 session_start();
 ?>
 <div id="banner"></div>
+<!-- Услуги салона -->
 <div id="page" class="container">
 	<div id="services" class="boxA">
-		<h2>Etiam posuere augue</h2>
+		<h2>Косметология</h2>
 		<div class="box">
 			<a href="#" class="image image-full"><img src="images/pic01.jpg" alt="" /></a>
-			<span>Maecenas luctus lectus</span>
+			<span>Классическая и лазерная косметология</span>
 		</div>
-		<p>Vivamus fermentum augue. Praesent lacus urna rutrum. Nulla enim eros varius. Duis enim nulla luctus eu, dapibus lacinia.</p>
-		<a href="#" class="button">Etiam posuere</a>
+		<p>Самые современные лазерные и классические косметологические процедуры</p>
+		<a href="#" class="button">Узнать</a>
 	</div>
 
 	<div class="boxB">
-		<h2>Donec dictum metus</h2>
+		<h2>Эпиляция</h2>
 		<div class="box">
 			<a href="#" class="image image-full"><img src="images/pic02.jpg" alt="" /></a>
-			<span>Lorem ipsum dolor sit amet</span>
+			<span>с использованием новейших технологий</span>
 		</div>
-		<p>Vivamus fermentum augue. Praesent lacus urna rutrum. Nulla enim eros varius. Duis enim nulla luctus eu, dapibus lacinia.</p>
-		<a href="#" class="button">Etiam posuere</a>
+		<p>Навсегда избавьтесь от нежелательных волос с помощью наших услуг</p>
+		<a href="#" class="button">Узнать</a>
 	</div>
 
 	<div class="boxC">
-		<h2>Fusce ultrices fringilla</h2>
+		<h2>Контурная пластика</h2>
 		<div class="box">
 			<a href="#" class="image image-full"><img src="images/pic03.jpg" alt="" /></a>
-			<span>Pellentesque quis lectus</span>
+			<span>создать объем лица и устранить недостатки</span>
 		</div>
-		<p>Vivamus fermentum augue. Praesent lacus urna rutrum. Nulla enim eros varius. Duis enim nulla luctus eu, dapibus lacinia.</p>
-		<a href="#" class="button">Etiam posuere</a>
+		<p>Корректируйте контуры лица с помощью новейших филлеров</p>
+		<a href="#" class="button">Узнать</a>
 	</div>
 </div>
+<!-- Акции салона -->
 <div id="page" class="container">
     <div id="sale" class="boxA">
-		<h2>Etiam posuere augue</h2>
+		<h2>АКЦИИ АПРЕЛЯ</h2>
 		<div class="box">
-			<a href="#" class="image image-full"><img src="images/pic01.jpg" alt="" /></a>
-			<span>Maecenas luctus lectus</span>
+			<a href="#" class="image image-full"><img src="images/pic04.jpg" alt="" /></a>
+			<span>лазерная эпиляция</span>
 		</div>
-		<p>Vivamus fermentum augue. Praesent lacus urna rutrum. Nulla enim eros varius. Duis enim nulla luctus eu, dapibus lacinia.</p>
-		<a href="#" class="button">Etiam posuere</a>
+		<p>Лазерная эпиляция [глубокое бикини + подмышечные впадины] - 4 500 р (вместо 7 000 р.)</p>
+		<a href="#" class="button">Узнать</a>
 	</div>
 
 	<div class="boxB">
-		<h2>Donec dictum metus</h2>
+		<h2>АКЦИИ МАРТА</h2>
 		<div class="box">
-			<a href="#" class="image image-full"><img src="images/pic02.jpg" alt="" /></a>
-			<span>Lorem ipsum dolor sit amet</span>
+			<a href="#" class="image image-full"><img src="images/pic05.jpg" alt="" /></a>
+			<span>Смас-лифтинг</span>
 		</div>
-		<p>Vivamus fermentum augue. Praesent lacus urna rutrum. Nulla enim eros varius. Duis enim nulla luctus eu, dapibus lacinia.</p>
-		<a href="#" class="button">Etiam posuere</a>
+		<p>Смас-лифтинг  -  скидка 10 % (лицо). Биоревитализация препаратами Novacutan - скидка 10%</p>
+		<a href="#" class="button">Узнать</a>
 	</div>
 
 	<div class="boxC">
-		<h2>Fusce ultrices fringilla</h2>
+		<h2>АКЦИИ ФЕВРАЛЯ</h2>
 		<div class="box">
-			<a href="#" class="image image-full"><img src="images/pic03.jpg" alt="" /></a>
-			<span>Pellentesque quis lectus</span>
+			<a href="#" class="image image-full"><img src="images/pic06.jpg" alt="" /></a>
+			<span>Мезотерапия и плазмолифтинг</span>
 		</div>
-		<p>Vivamus fermentum augue. Praesent lacus urna rutrum. Nulla enim eros varius. Duis enim nulla luctus eu, dapibus lacinia.</p>
-		<a href="#" class="button">Etiam posuere</a>
+		<p>Мезотерапия и плазмолифтинг волосистой части головы скидка 10%. азерная эпиляция зоны купальника + эпиляция голеней 7000р.</p>
+		<a href="#" class="button">Узнать</a>
 	</div>
 </div>
 <div id="featured" class="container">
@@ -70,8 +72,8 @@ session_start();
 		<span class="fa fa-pagelines"></span>	
 	</div>
 	<div class="align-right">
-		<p>This is <strong>PlainLeaf</strong>, a free, fully standards-compliant CSS template designed by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>. The photos in this template are from <a href="http://fotogrph.com/"> Fotogrph</a>. This free template is released under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :) </p>	
-		<a href="#" class="button">Etiam posuere</a>
+		<p>В случае нарушения прав пациента он может обращаться с жалобой непосредственно к руководителю организации, или его заместителю в приемные часы, а также к должностным лицам государственных органов или в суд.</p>	
+		
 	</div>
 </div>
 <?php

@@ -4,18 +4,18 @@ require 'func.php';
 
 $username = $_POST['login'] ?? null;
 $password = $_POST['password'] ?? null;
-
+// Проверка пользователя
 if (checkPassword($username, $password)) {
     session_start();
     $_SESSION['auth'] = true;
     $_SESSION['login'] = $username;
-    // header('Location: /task_14.8/index.php');
     echo "Вы вошли как " . $_SESSION['login'] . "!";
-    print_r ($_SESSION);
+    header( "refresh:0;url=index.php#sale" );
 } 
 
 $auth = $_SESSION['auth'] ?? null;
 
+// Показ формы авторизации
 if (!$auth) {?>
 <div class="login-page">
     <form action="login.php" class="form" method="post">
@@ -26,3 +26,10 @@ if (!$auth) {?>
 </div>
 <?php }
 
+// Очистка сессии
+if (isset($_REQUEST['loguot'])) {
+    unset($_SESSION['auth']);
+    unset($_SESSION['login']);
+    header("Refresh:0");
+}
+?>

@@ -12,18 +12,19 @@
 <body>
 <div id="header" class="container">
 	<div id="logo">
-		<h1><a href="#">SPA-салон</a></h1>
+		<h1><a href="index.php">SPA-салон</a></h1>
 	</div>
 	<div id="menu">
 		<ul>
-			<li class="active"><a href="index.php" accesskey="1" title="">Главная</a></li>
-			<li><a href="#services" accesskey="3" title="">Услуги</a></li>
-			<li><a href="#sale" accesskey="4" title="">Акции</a></li>
+			<li class="active"><a href="index.php" title="">Главная</a></li>
+			<li><a href="#services" title="">Услуги</a></li>
+			<li><a href="#sale" title="">Акции</a></li>
 			<?php if (!isset($_SESSION['auth'])) {?>
-            <li><a href="login.php" accesskey="4" title="">Вход</a></li>
+            <li><a href="login.php" title="">Вход</a></li>
 			<?php } else {?>
-			<li><?echo $_SESSION['login']." ";?><a href="#" onclick="" title="">Выход</a></li>
-			<?php } ?>	
-  		</ul>
+			<li><a href="#"><?echo $_SESSION['login']." ";?></a><form action="login.php" method="post"><input name="loguot" class="button" type="submit" value="Выход"></form></li>
+			<?php } ?>
+		</ul>
+		
     </div>
 </div>
